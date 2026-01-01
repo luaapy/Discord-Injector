@@ -1,0 +1,33 @@
+/* Debug Theme – obvious purple/pink for testing */
+
+:root {
+    --background-primary: #4b0082 !important;
+    /* indigo */
+    --background-secondary: #800080 !important;
+    /* purple */
+    --text-normal: #ff69b4 !important;
+    /* hot pink */
+    --accent-color: #ff00ff !important;
+    /* magenta */
+}
+
+/* Sidebar */
+[class*="sidebar"] {
+    background-color: var(--background-primary) !important;
+}
+
+/* Chat messages */
+[class*="message"] {
+    background-color: var(--background-secondary) !important;
+    color: var(--text-normal) !important;
+}
+
+/* Links */
+a {
+    color: var(--accent-color) !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
