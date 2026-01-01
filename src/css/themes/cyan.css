@@ -1,15 +1,366 @@
+/* ========================================
+   DISCORD CYAN THEME - Premium Style
+   Copy paste ke CSS Injector
+   ======================================== */
+
+/* === ROOT VARIABLES === */
 :root {
-    --cyan: #4fc1c2 !important;
-    --background-primary: #0a0e12 !important;
-    --background-secondary: #0d1117 !important;
+  --cyan-primary: #00ffff;
+  --cyan-glow: #00ffff80;
+  --cyan-dark: #00b8d4;
+  --cyan-darker: #006064;
+  --bg-dark: #0a0e1a;
+  --bg-darker: #050810;
+  --bg-card: #0f1419;
+  --text-cyan: #00ffff;
+  --text-white: #ffffff;
 }
-.theme-dark {
-    --background-primary: #0a0e12 !important;
+
+/* === BACKGROUND UTAMA === */
+._51fd70792ee2e563-appMount {
+  background: linear-gradient(135deg, var(--bg-darker) 0%, var(--bg-dark) 50%, #001420 100%);
 }
-[class*="sidebar"] {
-    background: #0d1117 !important;
+
+._160d8e55254637e5-app {
+  background: transparent !important;
 }
-[class*="message"] {
-    border-left: 3px solid var(--cyan) !important;
-    background: rgba(79, 193, 194, 0.05) !important;
+
+/* === SIDEBAR KIRI (Guild List) === */
+.ef3116c2da186559-wrapper {
+  background: rgba(10, 14, 26, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border-right: 1px solid var(--cyan-dark);
+  box-shadow: 0 0 20px var(--cyan-glow);
+}
+
+/* Guild Icons - Cyan Glow Effect */
+._6e9f8dce4cc18de3-wrapper:hover {
+  background: var(--cyan-glow) !important;
+  box-shadow: 0 0 15px var(--cyan-primary);
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+._6e9f8dce4cc18de3-selected {
+  background: var(--cyan-primary) !important;
+  box-shadow: 0 0 20px var(--cyan-primary);
+}
+
+/* Pill indicator */
+.e5445cbd3ad226f2-pill span {
+  background: var(--cyan-primary) !important;
+  box-shadow: 0 0 10px var(--cyan-primary);
+}
+
+/* === SIDEBAR CHANNEL === */
+.f37cb1984c371ee5-container {
+  background: rgba(15, 20, 25, 0.95) !important;
+  backdrop-filter: blur(15px);
+  border-right: 1px solid var(--cyan-darker);
+}
+
+/* Server Header */
+.f37cb1984c371ee5-header {
+  background: linear-gradient(180deg, var(--bg-card) 0%, transparent 100%) !important;
+  border-bottom: 2px solid var(--cyan-primary);
+  box-shadow: 0 2px 15px var(--cyan-glow);
+}
+
+.f37cb1984c371ee5-name {
+  color: var(--cyan-primary) !important;
+  text-shadow: 0 0 10px var(--cyan-glow);
+  font-weight: 700;
+}
+
+/* Channel Names */
+._2ea32c412048f708-name {
+  color: #a0cfff !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Selected Channel */
+.c69b6db0641110f6-selected ._2ea32c412048f708-name {
+  color: var(--cyan-primary) !important;
+  text-shadow: 0 0 8px var(--cyan-glow);
+  font-weight: 700;
+}
+
+.c69b6db0641110f6-selected {
+  background: linear-gradient(90deg, transparent, var(--cyan-glow), transparent) !important;
+  border-left: 3px solid var(--cyan-primary);
+}
+
+/* Channel Hover Effect */
+._2ea32c412048f708-link:hover {
+  background: var(--cyan-glow) !important;
+  border-radius: 8px;
+}
+
+/* === CHAT AREA === */
+.f75fb00fb7356cbe-chat {
+  background: rgba(10, 14, 26, 0.6) !important;
+}
+
+/* Chat Header */
+._9293f6b2fc12398a-container {
+  background: linear-gradient(180deg, var(--bg-card) 0%, transparent 100%) !important;
+  border-bottom: 2px solid var(--cyan-primary);
+  box-shadow: 0 2px 20px var(--cyan-glow);
+  backdrop-filter: blur(20px);
+}
+
+._9293f6b2fc12398a-title {
+  color: var(--cyan-primary) !important;
+  text-shadow: 0 0 10px var(--cyan-glow);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Topic Channel */
+._6ec1a06139ec3b27-topic {
+  color: #70d8ff !important;
+}
+
+/* === MESSAGES === */
+._5126c0cd07f243a0-message {
+  background: rgba(15, 20, 25, 0.4);
+  border-left: 2px solid transparent;
+  transition: all 0.2s ease;
+  margin: 4px 8px;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+._5126c0cd07f243a0-message:hover {
+  background: rgba(0, 255, 255, 0.05) !important;
+  border-left: 2px solid var(--cyan-primary);
+  box-shadow: 0 0 15px var(--cyan-glow);
+}
+
+/* Username Colors */
+.c19a557985eb7793-username {
+  color: var(--cyan-primary) !important;
+  font-weight: 700;
+  text-shadow: 0 0 5px var(--cyan-glow);
+}
+
+/* Message Content */
+.c19a557985eb7793-messageContent,
+._752971923a1e6683-markup {
+  color: #e0f7ff !important;
+}
+
+/* Timestamp */
+.c19a557985eb7793-timestamp {
+  color: #4dd0e1 !important;
+}
+
+/* === REPLY/THREAD === */
+.c19a557985eb7793-repliedMessage {
+  background: rgba(0, 255, 255, 0.1);
+  border-left: 3px solid var(--cyan-primary);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+/* === TEXT INPUT AREA === */
+._740174f3d6a2c8fe-channelTextArea {
+  background: rgba(15, 20, 25, 0.9) !important;
+  border: 2px solid var(--cyan-darker);
+  border-radius: 12px;
+  box-shadow: 0 0 20px var(--cyan-glow);
+  margin: 0 16px 16px;
+}
+
+._740174f3d6a2c8fe-channelTextArea:focus-within {
+  border-color: var(--cyan-primary);
+  box-shadow: 0 0 30px var(--cyan-primary);
+}
+
+/* Placeholder Text */
+._1b31f471f0bb10ab-placeholder {
+  color: #4dd0e1 !important;
+}
+
+/* === BUTTONS === */
+._201d5e8a3c09670a-button,
+.a22cb0c66246f5d3-button {
+  background: linear-gradient(135deg, var(--cyan-dark), var(--cyan-darker)) !important;
+  border: 1px solid var(--cyan-primary);
+  color: var(--text-white) !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--cyan-glow);
+}
+
+._201d5e8a3c09670a-button:hover,
+.a22cb0c66246f5d3-button:hover {
+  background: var(--cyan-primary) !important;
+  box-shadow: 0 6px 25px var(--cyan-primary);
+  transform: translateY(-2px);
+}
+
+/* Attach Button */
+._0923f156a0410684-attachButton {
+  background: rgba(0, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+._0923f156a0410684-attachButton:hover {
+  background: var(--cyan-glow);
+  box-shadow: 0 0 15px var(--cyan-primary);
+  transform: rotate(90deg);
+}
+
+/* === EMOJI & REACTIONS === */
+._040f07d21e1fb0d6-emoji {
+  transition: all 0.2s ease;
+}
+
+._040f07d21e1fb0d6-emoji:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 8px var(--cyan-primary));
+}
+
+/* === VOICE PANEL === */
+._37e49614b9f110a9-container {
+  background: rgba(15, 20, 25, 0.95) !important;
+  border-top: 2px solid var(--cyan-primary);
+  box-shadow: 0 -2px 20px var(--cyan-glow);
+}
+
+/* Username Panel */
+.b6c092614b8d59f3-title {
+  color: var(--cyan-primary) !important;
+  font-weight: 700;
+}
+
+/* Voice Buttons */
+._67645e1530f1195d-button {
+  background: rgba(0, 255, 255, 0.1) !important;
+  border: 1px solid var(--cyan-darker);
+  transition: all 0.3s ease;
+}
+
+._67645e1530f1195d-button:hover {
+  background: var(--cyan-glow) !important;
+  border-color: var(--cyan-primary);
+  box-shadow: 0 0 15px var(--cyan-primary);
+  transform: scale(1.1);
+}
+
+/* === SCROLLBAR === */
+.d125d22cdfd32cfe-thin::-webkit-scrollbar {
+  width: 8px;
+}
+
+.d125d22cdfd32cfe-thin::-webkit-scrollbar-track {
+  background: var(--bg-darker);
+}
+
+.d125d22cdfd32cfe-thin::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--cyan-dark), var(--cyan-darker));
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--cyan-glow);
+}
+
+.d125d22cdfd32cfe-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--cyan-primary);
+  box-shadow: 0 0 15px var(--cyan-primary);
+}
+
+/* === MENTIONS === */
+.mention {
+  background: var(--cyan-glow) !important;
+  color: var(--cyan-primary) !important;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-weight: 600;
+}
+
+.mention:hover {
+  background: var(--cyan-primary) !important;
+  color: var(--bg-darker) !important;
+}
+
+/* === SEARCH BAR === */
+._974928fe84ca9647-searchBar {
+  background: rgba(15, 20, 25, 0.9) !important;
+  border: 1px solid var(--cyan-darker);
+  border-radius: 8px;
+}
+
+._974928fe84ca9647-searchBar:focus-within {
+  border-color: var(--cyan-primary);
+  box-shadow: 0 0 15px var(--cyan-glow);
+}
+
+/* === SYSTEM MESSAGES === */
+._5126c0cd07f243a0-systemMessage {
+  background: rgba(0, 255, 255, 0.05);
+  border-left: 3px solid var(--cyan-primary);
+  border-radius: 8px;
+}
+
+/* === HOVER ANIMATIONS === */
+.f84418acfdbdfe54-hoverBarButton {
+  background: rgba(0, 255, 255, 0.1) !important;
+  transition: all 0.2s ease;
+}
+
+.f84418acfdbdfe54-hoverBarButton:hover {
+  background: var(--cyan-glow) !important;
+  box-shadow: 0 0 10px var(--cyan-primary);
+  transform: scale(1.1);
+}
+
+/* === AVATAR DECORATIONS === */
+._44b0c28be7879b7b-wrapper {
+  transition: all 0.3s ease;
+}
+
+._44b0c28be7879b7b-wrapper:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px var(--cyan-primary));
+}
+
+/* === CATEGORY HEADERS === */
+._29444ba32c7fbeab-container h3 {
+  color: var(--cyan-primary) !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* === BOOST BADGE === */
+._976771df75452ce0-iconTierOne,
+._976771df75452ce0-boostedGuildIconGem {
+  filter: drop-shadow(0 0 8px var(--cyan-primary));
+}
+
+/* === GLOW EFFECT ON ACTIVE === */
+._6e9f8dce4cc18de3-selected::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 30px var(--cyan-primary);
+  z-index: -1;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
 }
