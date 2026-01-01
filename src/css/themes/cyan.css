@@ -1,0 +1,15 @@
+:root {
+    --cyan: #4fc1c2 !important;
+    --background-primary: #0a0e12 !important;
+    --background-secondary: #0d1117 !important;
+}
+.theme-dark {
+    --background-primary: #0a0e12 !important;
+}
+[class*="sidebar"] {
+    background: #0d1117 !important;
+}
+[class*="message"] {
+    border-left: 3px solid var(--cyan) !important;
+    background: rgba(79, 193, 194, 0.05) !important;
+}

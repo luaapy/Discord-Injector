@@ -1,0 +1,35 @@
+:root {
+    --background-primary: #1a0d2e !important;
+    --background-secondary: #16213e !important;
+    --background-tertiary: #0f3460 !important;
+    --accent-color: #9d4edd !important;
+}
+.theme-dark {
+    --background-primary: #1a0d2e !important;
+    --background-secondary: #16213e !important;
+}
+[class*="sidebar"] {
+    background: linear-gradient(180deg, #1a0d2e 0%, #16213e 50%, #0f3460 100%) !important;
+}
+[class*="message"] {
+    border-left: 3px solid #9d4edd !important;
+    background: rgba(157, 78, 221, 0.08) !important;
+    border-radius: 4px !important;
+    margin: 2px 0 !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(157, 78, 221, 0.15) !important;
+    border-left: 3px solid #c77dff !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #9d4edd !important;
+    border-radius: 8px !important;
+}
+[class*="button"] {
+    background: linear-gradient(135deg, #9d4edd, #c77dff) !important;
+    transition: all 0.3s ease !important;
+}
+[class*="button"]:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(157, 78, 221, 0.4) !important;
+}

@@ -1,0 +1,31 @@
+[2026-01-01T17:14:41.699Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:14:54.916Z] [INFO] Discord processes killed
+[2026-01-01T17:14:54.942Z] [SUCCESS] Injection completed with theme: cyan
+[2026-01-01T17:19:05.459Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:19:22.538Z] [SUCCESS] Discord restored to original state
+[2026-01-01T17:19:50.150Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:19:59.915Z] [INFO] Discord processes killed
+[2026-01-01T17:20:59.939Z] [ERROR] Injection failed: EBUSY: resource busy or locked, rename 'C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources\app.asar' -> 'C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources\original.asar'
+[2026-01-01T17:23:05.636Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:23:27.368Z] [INFO] Discord processes killed
+[2026-01-01T17:23:27.387Z] [SUCCESS] Injection completed with theme: cyan
+[2026-01-01T17:26:08.864Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:26:08.871Z] [INFO] Starting live CSS editor
+[2026-01-01T17:33:57.175Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:35:09.230Z] [SUCCESS] Discord restored to original state
+[2026-01-01T17:35:12.240Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:35:29.479Z] [INFO] Discord processes killed
+[2026-01-01T17:35:29.573Z] [SUCCESS] Injection completed with theme: midnight
+[2026-01-01T17:37:39.849Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:37:39.853Z] [INFO] Starting live CSS editor
+[2026-01-01T17:38:52.234Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:39:13.901Z] [INFO] Discord processes killed
+[2026-01-01T17:39:13.937Z] [SUCCESS] Injection completed with theme: cyan
+[2026-01-01T17:51:30.961Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T17:52:09.289Z] [INFO] Discord processes killed
+[2026-01-01T17:52:09.310Z] [SUCCESS] Injection completed with theme: cyberpunk-neon
+[2026-01-01T19:49:24.957Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T19:49:45.333Z] [INFO] Discord processes killed
+[2026-01-01T19:49:45.377Z] [SUCCESS] Injection completed with theme: rose-pink
+[2026-01-01T19:51:36.480Z] [INFO] Discord found at: C:\Users\User\AppData\Local\Discord\app-1.0.9219\resources
+[2026-01-01T19:51:58.285Z] [SUCCESS] Discord restored to original state

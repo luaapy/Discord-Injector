@@ -1,0 +1,50 @@
+:root {
+    --background-primary: #282a36 !important;
+    --background-secondary: #21222c !important;
+    --background-tertiary: #191a21 !important;
+    --dracula-purple: #bd93f9 !important;
+    --dracula-pink: #ff79c6 !important;
+    --dracula-cyan: #8be9fd !important;
+}
+.theme-dark {
+    --background-primary: #282a36 !important;
+    --background-secondary: #21222c !important;
+}
+._960e4207cea8323e-bg {
+    background: #282a36 !important;
+}
+[class*="sidebar"] {
+    background: #21222c !important;
+}
+[class*="message"] {
+    border-left: 3px solid #bd93f9 !important;
+    background: rgba(189, 147, 249, 0.08) !important;
+    border-radius: 4px !important;
+    margin: 2px 0 !important;
+}
+[class*="message"]:hover {
+    background: rgba(189, 147, 249, 0.14) !important;
+}
+[class*="link"][class*="modeSelected"],
+[class*="link"]:hover {
+    background: rgba(255, 121, 198, 0.1) !important;
+    border-left: 3px solid #ff79c6 !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(139, 233, 253, 0.15) !important;
+    border-left: 3px solid #8be9fd !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #bd93f9, #ff79c6) !important;
+    border-radius: 8px !important;
+}
+[class*="avatar"] {
+    box-shadow: 0 0 10px rgba(189, 147, 249, 0.3) !important;
+}
+[class*="button"] {
+    background: linear-gradient(135deg, #bd93f9, #ff79c6) !important;
+}
+code {
+    background: #191a21 !important;
+    border: 1px solid #bd93f9 !important;
+}

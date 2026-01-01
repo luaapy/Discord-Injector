@@ -1,0 +1,48 @@
+:root {
+    --background-primary: #2E3440 !important;
+    --background-secondary: #3B4252 !important;
+    --background-tertiary: #434C5E !important;
+    --nord-frost: #88C0D0 !important;
+    --nord-aurora: #B48EAD !important;
+}
+.theme-dark {
+    --background-primary: #2E3440 !important;
+    --background-secondary: #3B4252 !important;
+}
+._960e4207cea8323e-bg {
+    background: #2E3440 !important;
+}
+[class*="sidebar"] {
+    background: #3B4252 !important;
+}
+[class*="message"] {
+    border-left: 3px solid #88C0D0 !important;
+    background: rgba(136, 192, 208, 0.08) !important;
+    border-radius: 6px !important;
+    margin: 2px 0 !important;
+}
+[class*="message"]:hover {
+    background: rgba(136, 192, 208, 0.12) !important;
+}
+[class*="link"] {
+    border-radius: 4px !important;
+}
+[class*="link"]:hover {
+    background: rgba(136, 192, 208, 0.15) !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(180, 142, 173, 0.2) !important;
+    border-left: 3px solid #B48EAD !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #88C0D0 !important;
+    border-radius: 4px !important;
+}
+[class*="input"] {
+    background: #434C5E !important;
+    border: 1px solid #4C566A !important;
+}
+[class*="container"][class*="userInfo"] {
+    background: #3B4252 !important;
+    border-top: 2px solid #88C0D0 !important;
+}

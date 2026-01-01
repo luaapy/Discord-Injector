@@ -1,0 +1,40 @@
+:root {
+    --background-primary: #1a1423 !important;
+    --background-secondary: #2d132c !important;
+    --background-tertiary: #3d1e33 !important;
+    --sunset-orange: #ff6700 !important;
+    --sunset-pink: #ff006e !important;
+}
+.theme-dark {
+    --background-primary: #1a1423 !important;
+    --background-secondary: #2d132c !important;
+}
+._960e4207cea8323e-bg {
+    background: linear-gradient(180deg, #1a1423 0%, #2d132c 50%, #801336 100%) !important;
+}
+[class*="sidebar"] {
+    background: linear-gradient(180deg, rgba(45, 19, 44, 0.8) 0%, rgba(26, 20, 35, 0.8) 100%) !important;
+    backdrop-filter: blur(10px) !important;
+}
+[class*="message"] {
+    border-left: 4px solid #ff6700 !important;
+    background: linear-gradient(90deg, rgba(255, 103, 0, 0.1) 0%, transparent 100%) !important;
+    border-radius: 8px !important;
+    margin: 2px 0 !important;
+    box-shadow: 0 2px 8px rgba(255, 103, 0, 0.1) !important;
+}
+[class*="message"]:hover {
+    background: linear-gradient(90deg, rgba(255, 103, 0, 0.15) 0%, transparent 100%) !important;
+    box-shadow: 0 4px 12px rgba(255, 103, 0, 0.2) !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(255, 0, 110, 0.2) !important;
+    border-left: 4px solid #ff006e !important;
+    box-shadow: 0 0 20px rgba(255, 0, 110, 0.3) !important;
+}
+[class*="button"] {
+    background: linear-gradient(135deg, #ff6700, #ff006e) !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff6700, #ff006e) !important;
+}

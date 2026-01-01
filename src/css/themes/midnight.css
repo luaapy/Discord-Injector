@@ -1,0 +1,16 @@
+:root {
+    --background-primary: #000000 !important;
+    --background-secondary: #0a0a0a !important;
+    --background-tertiary: #101010 !important;
+}
+.theme-dark {
+    --background-primary: #000 !important;
+    --background-secondary: #050505 !important;
+}
+[class*="message"] {
+    border-left: 2px solid #7289da !important;
+    background: rgba(114, 137, 218, 0.05) !important;
+}
+[class*="sidebar"] {
+    background: #000000 !important;
+}

@@ -1,0 +1,37 @@
+:root {
+    --custom-bg-primary: #1a1a1a;
+    --custom-bg-secondary: #0f0f0f;
+    --custom-bg-tertiary: #252525;
+    --custom-accent: #7289da;
+    --custom-accent-hover: #677bc4;
+    --custom-text-primary: #ffffff;
+    --custom-text-secondary: #b9bbbe;
+    --custom-text-muted: #72767d;
+}
+
+.theme-dark {
+    --background-primary: var(--custom-bg-primary);
+    --background-secondary: var(--custom-bg-secondary);
+    --background-tertiary: var(--custom-bg-tertiary);
+}
+
+[class*="message"] {}
+
+.mentioned-Tre-dv {
+    background-color: rgba(114, 137, 218, 0.1);
+    border-left: 2px solid var(--custom-accent);
+}
+
+[class*="guilds"] {}
+
+[class*="sidebar"] {}
+
+[class*="wrapper"][class*="_2ea32c412048f708"] {}
+
+[class*="button"] {}
+
+[class*="input"] {}
+
+* {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}

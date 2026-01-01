@@ -1,0 +1,45 @@
+:root {
+    --background-primary: #1a0d1a !important;
+    --background-secondary: #2d132d !important;
+    --background-tertiary: #3d1e3d !important;
+    --rose-pink: #ff69b4 !important;
+    --rose-light: #ffb3d9 !important;
+}
+.theme-dark {
+    --background-primary: #1a0d1a !important;
+    --background-secondary: #2d132d !important;
+}
+[class*="sidebar"] {
+    background: linear-gradient(180deg, rgba(45, 19, 45, 0.9) 0%, rgba(26, 13, 26, 0.9) 100%) !important;
+    backdrop-filter: blur(8px) !important;
+}
+[class*="message"] {
+    border-left: 3px solid #ff69b4 !important;
+    background: rgba(255, 105, 180, 0.06) !important;
+    border-radius: 12px !important;
+    margin: 3px 0 !important;
+    transition: all 0.3s ease !important;
+}
+[class*="message"]:hover {
+    background: rgba(255, 105, 180, 0.12) !important;
+    transform: translateX(4px) !important;
+    box-shadow: -4px 0 12px rgba(255, 105, 180, 0.2) !important;
+}
+[class*="avatar"] {
+    box-shadow: 0 0 12px rgba(255, 105, 180, 0.4) !important;
+    border: 2px solid rgba(255, 105, 180, 0.3) !important;
+}
+[class*="link"] {
+    border-radius: 8px !important;
+}
+[class*="link"]:hover {
+    background: rgba(255, 105, 180, 0.15) !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ffb3d9, #ff69b4) !important;
+    border-radius: 10px !important;
+}
+[class*="input"]:focus {
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3) !important;
+    border-color: #ff69b4 !important;
+}

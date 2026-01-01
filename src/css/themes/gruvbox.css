@@ -1,0 +1,54 @@
+:root {
+    --background-primary: #282828 !important;
+    --background-secondary: #1d2021 !important;
+    --background-tertiary: #3c3836 !important;
+    --gruvbox-orange: #fe8019 !important;
+    --gruvbox-yellow: #fabd2f !important;
+    --gruvbox-green: #b8bb26 !important;
+}
+.theme-dark {
+    --background-primary: #282828 !important;
+    --background-secondary: #1d2021 !important;
+}
+._960e4207cea8323e-bg {
+    background: #282828 !important;
+}
+[class*="sidebar"] {
+    background: #1d2021 !important;
+    border-right: 1px solid #3c3836 !important;
+}
+[class*="message"] {
+    border-left: 4px solid #fe8019 !important;
+    background: rgba(254, 128, 25, 0.08) !important;
+    border-radius: 4px !important;
+    margin: 2px 0 !important;
+}
+[class*="message"]:hover {
+    background: rgba(254, 128, 25, 0.14) !important;
+    border-left-color: #fabd2f !important;
+}
+[class*="link"] {
+    border-radius: 4px !important;
+}
+[class*="link"]:hover {
+    background: rgba(184, 187, 38, 0.12) !important;
+    border-left: 3px solid #b8bb26 !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(250, 189, 47, 0.2) !important;
+    border-left: 4px solid #fabd2f !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #fe8019, #fabd2f) !important;
+    border-radius: 4px !important;
+}
+::selection {
+    background: rgba(254, 128, 25, 0.3) !important;
+}
+[class*="input"] {
+    background: #3c3836 !important;
+    border: 1px solid #504945 !important;
+}
+[class*="status"][class*="online"] {
+    background: #b8bb26 !important;
+}

@@ -1,0 +1,49 @@
+:root {
+    --background-primary: #0a0a0a !important;
+    --background-secondary: #141414 !important;
+    --background-tertiary: #1e1e1e !important;
+    --mono-accent: #ffffff !important;
+    --mono-gray: #808080 !important;
+}
+.theme-dark {
+    --background-primary: #0a0a0a !important;
+    --background-secondary: #141414 !important;
+}
+._960e4207cea8323e-bg {
+    background: #0a0a0a !important;
+}
+[class*="sidebar"] {
+    background: #141414 !important;
+    border-right: 1px solid #2a2a2a !important;
+}
+[class*="message"] {
+    border-left: 3px solid #ffffff !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-radius: 0px !important;
+    margin: 1px 0 !important;
+    transition: all 0.2s ease !important;
+}
+[class*="message"]:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-left-width: 5px !important;
+}
+[class*="link"] {
+    border-left: 2px solid transparent !important;
+    transition: border 0.2s ease !important;
+}
+[class*="link"]:hover {
+    border-left-color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff !important;
+    border-radius: 0px !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-left: 3px solid #ffffff !important;
+}
+[class*="username"] {
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}

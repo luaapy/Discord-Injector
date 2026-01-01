@@ -1,0 +1,61 @@
+:root {
+    --background-primary: #0a0014 !important;
+    --background-secondary: #0d001f !important;
+    --background-tertiary: #1a0033 !important;
+    --neon-pink: #ff00ff !important;
+    --neon-cyan: #00ffff !important;
+    --neon-green: #00ff00 !important;
+}
+.theme-dark {
+    --background-primary: #0a0014 !important;
+    --background-secondary: #0d001f !important;
+}
+._960e4207cea8323e-bg {
+    background:
+        linear-gradient(90deg, rgba(255, 0, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(180deg, #0a0014 0%, #1a0033 100%) !important;
+    background-size: 50px 50px, 50px 50px, 100% 100% !important;
+}
+[class*="sidebar"] {
+    background: rgba(13, 0, 31, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    border-right: 2px solid #ff00ff !important;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.3) !important;
+}
+[class*="message"] {
+    border-left: 4px solid #00ffff !important;
+    background: rgba(0, 255, 255, 0.05) !important;
+    border-radius: 4px !important;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2) !important;
+    transition: all 0.3s ease !important;
+}
+[class*="message"]:hover {
+    background: rgba(0, 255, 255, 0.1) !important;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4) !important;
+    transform: translateX(4px) !important;
+}
+.mentioned-Tre-dv {
+    background-color: rgba(255, 0, 255, 0.15) !important;
+    border-left: 4px solid #ff00ff !important;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.4) !important;
+}
+[class*="link"]:hover {
+    background: rgba(255, 0, 255, 0.1) !important;
+    box-shadow: inset 3px 0 #ff00ff !important;
+    text-shadow: 0 0 8px rgba(255, 0, 255, 0.8) !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff00ff, #00ffff) !important;
+    box-shadow: 0 0 10px #ff00ff !important;
+}
+[class*="button"] {
+    background: transparent !important;
+    border: 2px solid #00ffff !important;
+    box-shadow: 0 0 10px #00ffff !important;
+    text-shadow: 0 0 8px #00ffff !important;
+}
+[class*="button"]:hover {
+    background: rgba(0, 255, 255, 0.2) !important;
+    box-shadow: 0 0 20px #00ffff !important;
+}

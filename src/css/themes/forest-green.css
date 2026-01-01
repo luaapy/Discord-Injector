@@ -1,0 +1,38 @@
+:root {
+    --background-primary: #0d1B2a !important;
+    --background-secondary: #1B263B !important;
+    --background-tertiary: #2d3748 !important;
+    --forest-green: #40916c !important;
+    --forest-light: #52b788 !important;
+}
+.theme-dark {
+    --background-primary: #0d1B2a !important;
+    --background-secondary: #1B263B !important;
+}
+[class*="sidebar"] {
+    background: linear-gradient(180deg, #1B263B 0%, #0d1B2a 100%) !important;
+}
+[class*="message"] {
+    border-left: 4px solid #40916c !important;
+    background: rgba(64, 145, 108, 0.08) !important;
+    border-radius: 5px !important;
+}
+[class*="message"]:hover {
+    background: rgba(64, 145, 108, 0.12) !important;
+    border-left-color: #52b788 !important;
+}
+[class*="link"][class*="wrapper"] {
+    border-radius: 8px !important;
+    transition: all 0.2s ease !important;
+}
+[class*="link"][class*="wrapper"]:hover {
+    background: rgba(64, 145, 108, 0.15) !important;
+    padding-left: 8px !important;
+}
+[class*="input"] {
+    background: rgba(64, 145, 108, 0.1) !important;
+    border: 1px solid #40916c !important;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #52b788, #40916c) !important;
+}

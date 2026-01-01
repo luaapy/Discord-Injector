@@ -1,0 +1,23 @@
+{
+  "name": "discord-injector-ultimate",
+  "version": "1.0.0",
+  "description": "Modular Discord CSS Injector",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "install-dep": "npm install ps-node chokidar ws express commander chalk ora inquirer fs-extra open"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "commander": "^11.1.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "open": "^9.1.0",
+    "ora": "^5.4.1",
+    "ps-node": "^0.1.6",
+    "ws": "^8.14.2"
+  }
+}

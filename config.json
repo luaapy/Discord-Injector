@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "settings": {
+        "autoBackup": true,
+        "maxBackups": 10,
+        "enableLogging": true,
+        "hotReload": true,
+        "editorPort": 8765
+    },
+    "paths": {
+        "backups": "./backups",
+        "logs": "./logs",
+        "themes": "./src/css/themes"
+    },
+    "discord": {
+        "autoRestart": false,
+        "killTimeout": 2000
+    },
+    "editor": {
+        "theme": "vs-dark",
+        "fontSize": 14,
+        "tabSize": 2,
+        "autoSave": true,
+        "autoSaveDelay": 1000
+    },
+    "lastInjection": null,
+    "activeTheme": null
+}
