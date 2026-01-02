@@ -32,6 +32,15 @@
 
 [class*="input"] {}
 
+/* Fix: Error messages (notices) being covered by themed profiles/popouts */
+[class*="notice-"] {
+    z-index: 1000 !important;
+}
+
+[class*="userPopout-"] {
+    z-index: 100 !important;
+}
+
 * {
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
