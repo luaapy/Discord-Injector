@@ -6,6 +6,10 @@
 [![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
+### WARNING
+
+You may be automatically logged out, we recommend remembering your data to log in later
+
 ### Features
 
 - 13 Premium Themes – From Dark Purple to Cyberpunk Neon
@@ -189,4 +193,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 Made with care for the Discord theming community.
 
 If you find this project useful, please star the repository.
+
 
