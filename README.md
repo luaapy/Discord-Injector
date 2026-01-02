@@ -2,7 +2,7 @@
 
 ## Professional Discord CSS Theme Injector with live editing, 13 built-in themes, and a Monaco-based editor.
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/discord-injector-ultimate/releases)
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/yourusername/Discord-Injector/releases)
 [![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
@@ -27,8 +27,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/discord-injector-ultimate.git
-cd discord-injector-ultimate
+git clone https://github.com/luaapy/Discord-Injector.git
+cd Discord-Injector
 
 # Install dependencies
 npm install
@@ -189,3 +189,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 Made with care for the Discord theming community.
 
 If you find this project useful, please star the repository.
+
